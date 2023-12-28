@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+    font-family:Poppins;   
+}
+
+.title{
+    margin: 0.5rem;
+    display: flex;
+    justify-content:center;
+}
+.navbar{
+    position: fixed;
+    height:7vh;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    color: bisque;
+    text-decoration: none;
+}
+.logo{
+    width: auto;
+    height: 6.5vh;
+}
+.transperent{
+    transform: translateY(7vh);
+    position:relative;
+    z-index: -1;
+    background-color: cadetblue;
+    height: 70vh;
+    width: 100vw;
+}
+.whole{
+    transform: translateY(7vh);
+}
+.about{
+    width: 100vw;
+    height: 100vh;
+}
+.papers{
+    width: 100vw;
+    height: 100vh;
+}
+#paper{
+    height: 29vh;
+    width:auto;
+}
+.achievments{
+    width: 100vw;
+    height: 100vh;
+}
+#Award{
+    height: auto;
+    width: 100vw;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+}
